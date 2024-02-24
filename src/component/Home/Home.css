@@ -1,0 +1,84 @@
+.numbers{
+    background-color: #a82c48;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.numbers .row{
+    margin: 10px 0px;
+}
+.numbers h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.pride{
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+
+}
+.pride img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2{
+    font-size: 25px;
+    width: 80%;/*pour rentrer à la ligne*/
+    font-weight: bold;
+    margin: 10px 0px;
+    color:#791e33;
+    font-family: 'Cairo', sans-serif;
+    line-height: 45px; /*espace entre les lignes*/
+}
+.pride p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'Cairo', sans-serif;
+    margin-top: 15px;
+}
+.pride button{
+    background-color:#a82c48;
+    border: 1px solid #a82c48;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    transition: .2s ease;
+
+
+}
+.pride button a{
+    display: block;/*pour prendre misehet 140px*/
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none !important;/*pour supprimer la ligne sous l'ecriture*/
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.pride button:hover a{ /*pou faire l'effet du button*/
+  color: #791e33;
+
+}
+.pride button:hover { /*pou faire l'effet du button*/
+ background-color: #fff;
+}
