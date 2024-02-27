@@ -20,7 +20,7 @@ const Navs = () =>{
 
                   </Nav>
                   <Nav>
-            <Nav.Link id="lastnav">20148753</Nav.Link>
+            <Nav.Link id="lastnav">20148522</Nav.Link>
           </Nav>
                 </Navbar.Collapse>
               </Container>
